@@ -3,7 +3,7 @@
 
 &#160; &#160; &#160; &#160;DeepWalk是由`Bryan Perozzi`，`Rami Al-Rfou`和`Steven Skiena`在2014年提出的，它是一种基于图的无监督特征学习方法，它有趣的点是将文本处理任务中词向量的处理思想迁移到了图特征学习上，就像处理句子得到word embedding一样，通过处理由网络中节点组成的序列从而得到Node embedding，算是图特征学习的开山之作。
 
-<img src="C:\Users\anfeifei\Desktop\1562999738.png" width="60%">
+<img src="C:\Users\anfeifei\AppData\Roaming\Typora\typora-user-images\1562999721344.png" width="60%">
 
 &#160; &#160; &#160; &#160;示例的输入是一个网络，输出是图中每个节点的二维向量，DeepWalk通过截断随即游走学习出一个网络的社会表示，从两张图的对比也可以发现，越是在网络中拓扑结构相近的点，其对应的二维向量在二维空间上的距离越近。
 
